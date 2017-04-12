@@ -1,0 +1,3 @@
+[[ -e foo ]] && rm foo
+g++ -o foo foo.cpp
+./foo 100000000 18 0
